@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book4"
+    android:backgroundTint="#D3D2D3"
+    android:backgroundTintMode="multiply"
+    android:orientation="vertical"
+    android:paddingTop="105dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+
+        android:fontFamily="cursive"
+        android:paddingVertical="35dp"
+        android:text="@string/BookMart"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="60sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:drawableStart="@android:drawable/sym_action_email"
+        android:fontFamily="serif"
+        android:paddingTop="0dp"
+        android:textColor="@color/colorBlack" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="30dp"
+        android:hint="@string/Username"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="0dp"
+        android:paddingStart="0dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="5dp"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="#290707"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@android:drawable/ic_lock_idle_lock"
+        android:paddingTop="10dp"
+        android:textColor="@color/colorBlack" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:hint="@string/PasswordHint"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/button_login"
+        android:backgroundTintMode="multiply"
+
+        android:onClick="login_success"
+        android:text="@string/Login"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:drawableEnd="@android:drawable/btn_plus"
+        android:onClick="change_register"
+android:layout_marginBottom="140dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorBlack"
+        android:textFontWeight="400" />
+
+</LinearLayout>
+

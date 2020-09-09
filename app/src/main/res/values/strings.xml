@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Book Mart</string>
+    <string name="app_name1">Book Mart</string>
+    <string name="Login">Login</string>
+    <string name="Username">Email Id</string>
+    <string name="PasswordText">Password</string>
+    <string name="PasswordHint">Password</string>
+    <string name="RegisterMsg"><a href=" ">Register</a></string>
+    <string name="BookMart">Book Mart</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_register">Email Id</string>
+    <string name="button_register">Register</string>
+    <string name="button_add">Add Book</string>
+</resources>
